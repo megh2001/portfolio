@@ -28,45 +28,12 @@ export const Experience = () => {
                     <p className={styles.info}>May 2022 - July 2024</p>
                     <ul>
                         <li className={styles.info}>Collaborated with the Global Data Collection team to develop a machine learning model to calculate
-                        attributes of objects identified for retail analytics, like product visibility adn shelf space using the YOLOv5 algorithm</li>
+                        attributes of objects identified for retail analytics, like product visibility and shelf space using the YOLOv5 algorithm</li>
                         <li className={styles.info}>Worked in the SAP consultancy team in the production planning department to implement S4HANA for the
                         client. Explored AI solutions to optimize production based on sales data using SAP IBP.</li>
                     </ul>
                 </div>
             </div>
-            {/* <h2 className={styles.title}>Experinece</h2>
-            <div className={styles.content}>
-                <div className={styles.skills}>{
-                    skills.map((skill, id) => {
-                        return (
-                        <div key={id} className={styles.skill}>
-                            <div className={styles.skillImageContainer}>
-                                <img src= {getImageUrl(skill.imageSrc)} alt = {skill.title} />
-                            </div>
-                            <p>{skill.title}</p>
-                        </div>
-                        );
-                    })
-                }
-                </div>
-                <ul className={styles.history}>
-                    {
-                        history.map((historyItem, id) => {
-                            return <li key={id} className={styles.historyItem}>
-                                <img src={getImageUrl(historyItem.imageSrc)} alt = {`${historyItem.organisation} Logo`} />
-                                <div className={styles.historyItemDetails}>
-                                    <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
-                                    <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
-                                    <ul>{historyItem.experiences.map((experience, id) => {
-                                        return <li key = {id}>{experience}</li>
-                                    })}
-                                    </ul>
-                                </div>
-                            </li>
-                        })
-                    }
-                </ul>
-            </div> */}
         </section>
   );
 };
