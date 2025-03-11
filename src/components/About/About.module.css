@@ -96,6 +96,7 @@
 
     .content { 
         flex-direction: column-reverse;
+        gap: 20px;
     }
 
     .aboutImg {

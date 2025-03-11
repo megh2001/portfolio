@@ -75,11 +75,19 @@
         font-size: 32px;
         margin-top: 60px;
         margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
         padding: 10px;
     }
 
+    .container {
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }   
     .projects {
         margin-top: 20px;
+        margin-left: 0px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -92,6 +100,7 @@
 
     .project {
         width: 90vw;
+        margin-left: 0px;
     }
 
     .project h3 {
