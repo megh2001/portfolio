@@ -110,10 +110,12 @@
     
     .heading {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column-reverse;
     }
     
     .heading img {
+        height: 15px;
+        width: 15px;
         transition: transform 0.15s ease-in-out;   
         filter: invert(1); 
     }
