@@ -55,3 +55,26 @@
 .container li:hover {
     transform: scale(1.01);
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 20px;
+    }
+
+    .container h2 {
+        font-size: 32px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .container ul {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .container li {
+        display: list-item;
+    }
+}

@@ -80,3 +80,46 @@
         margin-top: 10px;
     }
 }
+
+@media  screen and (max-width: 600px) {
+
+    .container {
+        height: auto;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .content { 
+        flex-direction: column-reverse;
+    }
+
+    .aboutImg {
+        margin-top: 10%;
+        width: auto;
+        size: auto;
+        margin-bottom: none;
+    }
+
+    .info {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .icons {
+        display: flex;
+        gap: 15px;
+        margin-left: 5px;
+    }
+    
+    .icon {
+        width: 30px;
+        height: auto;
+        transition: transform 0.15s ease-in-out;   
+        filter: invert(1); 
+    }
+
+}

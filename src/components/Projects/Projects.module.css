@@ -68,3 +68,53 @@
     font-size: 18px;
     font-weight: 400;
 }
+
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 32px;
+        margin-top: 60px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .projects {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 15px;
+        width: 100%;
+        width: auto;
+    }
+
+    .project {
+        width: auto;
+    }
+
+    .project h3 {
+        font-size: 22px;
+        font-weight: 500;
+    }
+    
+    .heading {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .heading img {
+        transition: transform 0.15s ease-in-out;   
+        filter: invert(1); 
+    }
+    
+    /* Hover effect */
+    .heading a:hover img{
+        transform: scale(1.1);
+    }
+    
+    .project p {
+        margin-top: 6px;
+        font-size: 14px;
+        font-weight: 200;
+    }
+}
