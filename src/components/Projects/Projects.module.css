@@ -86,10 +86,12 @@
         gap: 15px;
         width: 100%;
         width: auto;
+        justify-content: center;
+        align-items: center;
     }
 
     .project {
-        width: auto;
+        width: 90vw;
     }
 
     .project h3 {
