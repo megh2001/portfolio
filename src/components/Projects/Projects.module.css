@@ -117,4 +117,12 @@
         font-size: 14px;
         font-weight: 200;
     }
+
+    .video {
+        width: auto;
+        height: auto;
+        margin-bottom: 26px;
+        border-radius: 10px;
+    }
+
 }
