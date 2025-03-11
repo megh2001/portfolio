@@ -1,0 +1,59 @@
+@import "../../vars.css";
+
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items:; */
+    padding: 15px;
+    background: var(--color-bg);
+  }
+  
+/* Menu button (hamburger icon) */
+.menuIcon {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    display: block;
+}
+
+/* Menu list */
+.menuItems {
+    position: absolute;
+    top: 90px;
+    left: 5;
+    background: rgba(35, 35, 35, 1);
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    z-index: 4;
+    border-radius: 10px;
+}
+
+.menuItems.open {
+    display: flex;
+    }
+
+.menuItems li {
+    padding: 22px;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+    }
+
+.menuItems li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.menuItems li a:hover {
+    color: #ff5733;
+}

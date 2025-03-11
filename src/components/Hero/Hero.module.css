@@ -1,0 +1,100 @@
+@import "../../vars.css";
+
+
+
+.container {
+    position: relative;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 49px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: var(--color-text);
+    gap: 4px;
+}
+
+.name {
+    text-align: center;
+    font-size: 85px;
+    font-weight: 900;
+    font-family: var(--font-roboto);
+    margin-bottom: 23px;
+    margin-top: 15vh;
+}
+
+.description {
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 40px
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.button {
+    background-color :var(--color-text); /* bg-black */
+    color: var(--color-bg); /* text-white */
+    padding: 0.5rem 2rem; /* py-2 (8px top/bottom), px-8 (32px left/right) */
+    border-radius: 10px; /* rounded (default = 4px) */
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-roboto);
+    font-size: 20px;
+    font-weight: 700;
+    width: 200px;
+    transition: transform 0.15s ease-in-out; 
+    }
+
+/* Hover effect */
+.button:hover {
+    transform: scale(1.05);
+    }
+
+
+.arrow {
+    position: absolute;
+    bottom: 200px;
+    height: 50px;
+    width: 50px;
+    animation: bounce 1.5s infinite ease-in-out;
+}
+
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0); /* Start and end position */
+    }
+    50% {
+      transform: translateY(-10px); /* Moves up slightly */
+    }
+  }
+
+  @media  screen and (max-width: 830px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .name {
+        margin-top: 0;
+    }
+
+    .description { 
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .arrow {
+        display: none;
+
+    }
+  }
