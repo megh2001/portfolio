@@ -23,7 +23,7 @@ export const Projects = () => {
             -RL techniques like Deep Q learning and PPO with a custom environment in stablebaselines3</p>
         </div>
         <div className={styles.project}>
-            <img src={getImageUrl("projects/kaggle.png")} alt="" className={styles.image}></img>
+            <img src={getImageUrl("projects/kaggle.jpg")} alt="" className={styles.image}></img>
             {/* <video src={getImageUrl("projects/kaggle.mp4")} autoPlay loop muted playsInline className={styles.video}></video> */}
             <div className={styles.heading}>
                 <h3>Custom Resnet for image classification</h3>
