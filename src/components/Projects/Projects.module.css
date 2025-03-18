@@ -42,6 +42,11 @@
     border-radius: 10px;
 }
 
+.image {
+    margin-bottom: 26px;
+    border-radius: 10px;
+}
+
 .project h3 {
     font-size: 25px;
     font-weight: 700;

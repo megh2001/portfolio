@@ -22,6 +22,18 @@ export const Projects = () => {
             -Linear and Sequential Quadratic Programming with Model Predictive Control<br />
             -RL techniques like Deep Q learning and PPO with a custom environment in stablebaselines3</p>
         </div>
+        <div className={styles.project}>
+            <img src={getImageUrl("projects/kaggle.png")} alt="" className={styles.image}></img>
+            {/* <video src={getImageUrl("projects/kaggle.mp4")} autoPlay loop muted playsInline className={styles.video}></video> */}
+            <div className={styles.heading}>
+                <h3>Custom Resnet for image classification</h3>
+                <a href="https://github.com/megh2001/Projects/tree/main/resnet_modelling_kaggle">
+                    <img className={styles.icon} src={getImageUrl("about/github.svg")} alt =""/>
+                </a>
+            </div>
+            <p>-Placed 5th in a Kaggle competition to model a ResNet with under 5 million parameters from scratch to classify data from the CIFAR-10 dataset.<br />
+            -Implemented mix up data augmentation and Label Smoothening to reduce overfitting on a 43-layer resnet with 9 residual blocks trained for 1000 epochs with cosine annealing learning rate scheduling.</p>
+        </div>
     </div>
   </section>
   </div>
